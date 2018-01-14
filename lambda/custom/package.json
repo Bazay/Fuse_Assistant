@@ -1,0 +1,15 @@
+{
+  "name": "alexa_fuse_universal",
+  "version": "1.0.0",
+  "description": "Simple Fuse API plugin",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Baron Bloomer",
+  "license": "ISC"
+}

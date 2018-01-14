@@ -1,0 +1,32 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "fuse assistant",
+      "intents": [
+        {
+          "name": "GetNotificationsIntent",
+          "samples": [
+            "get my notifications",
+            "for my notifications",
+            "what are my notifications",
+            "what notifications do I have",
+            "tell me my notifications",
+            "tell me my latest notification",
+            "tell me my latest notifications",
+            "what is my latest notification",
+            "get my latest notification"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent"
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        },
+        {
+          "name": "AMAZON.HelpIntent"
+        }
+      ]
+    }
+  }
+}

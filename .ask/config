@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.6cdbc2f1-924f-4bd1-8182-5dc20a560715",
+      "was_cloned": true,
+      "merge": {
+        "skillManifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:eu-west-1:788354061087:function:AlexaFuseAssistantEU"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

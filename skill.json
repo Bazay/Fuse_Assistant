@@ -1,0 +1,59 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Connect to Fuse API",
+          "examplePhrases": [
+            "Alexa, ask Fuse to get me my notifications",
+            "Alexa, ask Fuse to tell me my latest notifications",
+            "Alexa, ask Fuse what are my notifications"
+          ],
+          "name": "Fuse Assistant",
+          "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.6cdbc2f1-924f-4bd1-8182-5dc20a560715/images/eyJkIjoiTHhwSk5SUldXQXNLWXZtM2hBYURkbGo2My9IYXFmQjFsZlJ4SmkxOGNMQm51bWJpZ0QvN0dEMGR0MkhPWWQ1enFHdHFhZTFBZWhvRTF2QzJPQjdoYzBRZit5ZXNrc214M254Rkh5YnUxZDlFTzRKZTRxcFZGWktNMUphaURrNkUiLCJpdiI6ImZUUFRIQVRGaUdOTDFqUEtHRFh1Y3c9PSIsInYiOjF9",
+          "description": "*** Demonstration Purposes Only ***\nThis skill is for demonstration purposes only to see how Alexa can support the Fuse API Platform",
+          "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.6cdbc2f1-924f-4bd1-8182-5dc20a560715/images/eyJkIjoiOTJwSVg5Z3ovb0tQeEtTOXVWVXZ6K0hoNnFyNHJ4TzZvZU5oVkRHS3lZa0U3RDJsQkZDN2NuS2FOcVJRZXNSNlNjdWg5YVZnQXBldHBrNjE0LzhXdzFJa1RLNVM2NDNBZ0E1UTNrenBGZmMvSEk0QWhscGlWb1FFMTVFN2ZoYVltdzBDSjhLQ256WVZlY3VIWEFTZjNBPT0iLCJpdiI6IjR2K0crZWNyblh6ay9SV1Y0QWgyN2c9PSIsInYiOjF9"
+        },
+        "en-GB": {
+          "summary": "Connect to Fuse API",
+          "examplePhrases": [
+            "Alexa, ask Fuse to get me my notifications"
+          ],
+          "name": "Fuse Assistant",
+          "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.6cdbc2f1-924f-4bd1-8182-5dc20a560715/images/eyJkIjoiL3k3T3NYcTA2MnFZc2NtcFhEZW1SWFg4RVY3Sm83VU1TU2pCa3JWa1Iwa2hrdlFiaDBsMXIydGlOeWduNHg4akc1U1JZODZYYisxNEp6VTdrMVovYmVYR3paZ3RzWVNHRTJjK3ZEMGU5V3BjWFVPNUxxVWZUdldXQVc0SHVHNnAiLCJpdiI6Ik5zTHBWcU5HZlpvOUJrY1J0WjNmaVE9PSIsInYiOjF9",
+          "description": "Get your daily notifications from Fuse!",
+          "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.6cdbc2f1-924f-4bd1-8182-5dc20a560715/images/eyJkIjoiRHh2N1JEQm92VUFTMGNndXpPQ2RtR0JpbUhjYVUraDdKNDRNWWJHdTVKSVlsL2FMWDBRdVVmeVlHMk9hQkpuMktZUkZwU2k2OFlzWHg2UVJMck9uMWNXNjhVMTRacWJLdldWanBmVzlqVDJwbmpyanoyVlpKYUxMbm1JelVKUFlkQy9vWnhlQmVYM1J2M250NEZwd1RnPT0iLCJpdiI6IkduTjQyUzI2WGpGZVN4UFRZOHA4OWc9PSIsInYiOjF9"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Alexa, ask Fuse to get me my latest notification",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": [
+        "GB"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://fusion.fuseuniversal.com/privacy"
+        },
+        "en-GB": {
+          "privacyPolicyUrl": "https://fusion.fuseuniversal.com/privacy"
+        }
+      },
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
