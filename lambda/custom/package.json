@@ -1,15 +1,15 @@
 {
   "name": "alexa_fuse_universal",
   "version": "1.0.0",
-  "description": "Simple Fuse API plugin",
+  "description": "Fuse Universal Notifications Reader",
   "main": "index.js",
   "dependencies": {
-    "alexa-sdk": "^1.0.3"
+    "alexa-sdk": "1.0.5",
+    "request": "2.72.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Baron Bloomer",
-  "license": "ISC"
+  "author": "Baron Bloomer"
 }
