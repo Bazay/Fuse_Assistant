@@ -18,7 +18,7 @@ const speechHandlers = {
         this.emit('EndSession', message + 'Ending session');
     },
     'expiredAccessToken' : function() {
-        let message = 'It looks like your access token has expired. Please disable then re-authenticate this skill in your Alexa app.';
+        let message = 'It looks like your access token has expired. Please disable then re-authenticate this skill in your Alexa mobile app.';
         this.emit('EndSession', message);
     }
     // 'noNewItems' : function () {
