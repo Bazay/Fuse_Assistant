@@ -19,6 +19,11 @@ module.exports = Object.freeze({
         '500' : '<break time = "500ms"/>'
     },
 
+    defaultCardImage: 'https://fusion-universal-assets-beta.s3.amazonaws.com/file-host/91e2accc-0adc-4fce-ba0b-1e91e72710c7--829673189015959883-3/67/icon.png',
+
+    // API
+    api_version: 'v2.0',
+
     // Time in minutes after which notifications fetched again.
     updateRetrievalTime : 1
 });

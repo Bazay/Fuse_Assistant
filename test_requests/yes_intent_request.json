@@ -1,0 +1,62 @@
+{
+    "version": "1.0",
+    "session": {
+        "new": false,
+        "sessionId": "amzn1.echo-api.session.abeee1a7-aee0-41e6-8192-e6faaed9f5ef",
+        "application": {
+            "applicationId": "amzn1.echo-sdk-ams.app.000000-d0ed-0000-ad00-000000d00ebe"
+        },
+        "attributes": {
+            "start": true,
+            "currentUser": {
+                "id": 41442,
+                "public_name": "Baron Bloomer",
+                "given_name": "Baron",
+                "family_name": "Bloomer",
+                "company_guid": "91e2accc-0adc-4fce-ba0b-1e91e72710c7--829673189015959883-3",
+                "name": "Baron Bloomer",
+                "email": "baron.bloomer@fusion-universal.com",
+                "avatar_url": "http://fuse.fuseuniversal.com/media/W1siZiIsIjIwMTUvMDcvMTUvMTAvMjIvMTQvNjY0LzExMTMzODEyXzEwMTUzMjU3NjY4OTEwOTk2XzYwMjkwOTI2Nzg0Mzk2MzA0NThfbi5qcGciXSxbInAiLCJ0aHVtYiIsIjMweDMwIyJdXQ?sha=3ec7e551e51c47d5",
+                "big_avatar_url": "http://fuse.fuseuniversal.com/media/W1siZiIsIjIwMTUvMDcvMTUvMTAvMjIvMTQvNjY0LzExMTMzODEyXzEwMTUzMjU3NjY4OTEwOTk2XzYwMjkwOTI2Nzg0Mzk2MzA0NThfbi5qcGciXSxbInAiLCJ0aHVtYiIsIjc0MHg3MTYiXV0?sha=b436a6849920ca8d",
+                "unviewed_notifications_count": 1,
+                "unread_notifications_count": 404,
+                "notifications_count": 465,
+                "password_change_required": false
+            },
+            "STATE": "_NOTIFICATIONS_MODE"
+        },
+        "user": {
+            "userId": "amzn1.account.AM3B227HF3FAM1B261HK7FFM3A2",
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0MTQ0MiwiY29tcGFueV9pZCI6MywiZXhwaXJlc19hdCI6IjIwMTgtMDItMTQgMjM6MDQ6MzkgVVRDIn0.W2GmJ7_aRFPewnjtISkxEH_mnE-dNHyVX1twDt-XggQ"
+        }
+    },
+    "context": {
+        "System": {
+            "application": {
+                "applicationId": "amzn1.echo-sdk-ams.app.000000-d0ed-0000-ad00-000000d00ebe"
+            },
+            "user": {
+                "userId": "amzn1.account.AM3B227HF3FAM1B261HK7FFM3A2"
+            },
+            "device": {
+                "supportedInterfaces": {
+                    "AudioPlayer": {}
+                }
+            }
+        },
+        "AudioPlayer": {
+            "offsetInMilliseconds": 0,
+            "playerActivity": "IDLE"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.6919844a-733e-4e89-893a-fdcb77e2ef0d",
+        "timestamp": "2015-05-13T12:34:56Z",
+        "locale": "en-US",
+        "intent": {
+            "name": "AMAZON.YesIntent",
+            "slots": {}
+        }
+    }
+}

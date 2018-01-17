@@ -1,0 +1,44 @@
+{
+    "version": "1.0",
+    "session": {
+        "new": false,
+        "sessionId": "amzn1.echo-api.session.abeee1a7-aee0-41e6-8192-e6faaed9f5ef",
+        "application": {
+            "applicationId": "amzn1.echo-sdk-ams.app.000000-d0ed-0000-ad00-000000d00ebe"
+        },
+        "attributes": {},
+        "user": {
+            "userId": "amzn1.account.AM3B227HF3FAM1B261HK7FFM3A2",
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0MTQ0MiwiY29tcGFueV9pZCI6MywiZXhwaXJlc19hdCI6IjIwMTgtMDItMTQgMjM6MDQ6MzkgVVRDIn0.W2GmJ7_aRFPewnjtISkxEH_mnE-dNHyVX1twDt-XggQ"
+        }
+    },
+    "context": {
+        "System": {
+            "application": {
+                "applicationId": "amzn1.echo-sdk-ams.app.000000-d0ed-0000-ad00-000000d00ebe"
+            },
+            "user": {
+                "userId": "amzn1.account.AM3B227HF3FAM1B261HK7FFM3A2"
+            },
+            "device": {
+                "supportedInterfaces": {
+                    "AudioPlayer": {}
+                }
+            }
+        },
+        "AudioPlayer": {
+            "offsetInMilliseconds": 0,
+            "playerActivity": "IDLE"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "EdwRequestId.c5e1f980-8f42-4092-af21-a8f45f55ee81",
+        "intent": {
+          "name": "GetNotifications",
+          "slots": {}
+        },
+        "locale": "en-GB",
+        "timestamp": "2018-01-17T00:18:38Z"
+    }
+}

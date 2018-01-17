@@ -5,9 +5,9 @@
         "en-US": {
           "summary": "Connect to Fuse API",
           "examplePhrases": [
-            "Alexa, ask Fuse to get me my notifications",
-            "Alexa, ask Fuse to tell me my latest notifications",
-            "Alexa, ask Fuse what are my notifications"
+            "Alexa, ask Fuse Assistant to get me my notifications",
+            "Alexa, ask Fuse Assistant to tell me my latest notifications",
+            "Alexa, ask Fuse Assistant what are my notifications"
           ],
           "name": "Fuse Assistant",
           "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.6cdbc2f1-924f-4bd1-8182-5dc20a560715/images/eyJkIjoiTHhwSk5SUldXQXNLWXZtM2hBYURkbGo2My9IYXFmQjFsZlJ4SmkxOGNMQm51bWJpZ0QvN0dEMGR0MkhPWWQ1enFHdHFhZTFBZWhvRTF2QzJPQjdoYzBRZit5ZXNrc214M254Rkh5YnUxZDlFTzRKZTRxcFZGWktNMUphaURrNkUiLCJpdiI6ImZUUFRIQVRGaUdOTDFqUEtHRFh1Y3c9PSIsInYiOjF9",
@@ -17,16 +17,18 @@
         "en-GB": {
           "summary": "Connect to Fuse API",
           "examplePhrases": [
-            "Alexa, ask Fuse to get me my notifications"
+            "Alexa, ask Fuse Assistant to get me my notifications",
+            "Alexa, ask Fuse Assistant to tell me my latest notifications",
+            "Alexa, ask Fuse Assistant what are my notifications"
           ],
           "name": "Fuse Assistant",
           "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.6cdbc2f1-924f-4bd1-8182-5dc20a560715/images/eyJkIjoiL3k3T3NYcTA2MnFZc2NtcFhEZW1SWFg4RVY3Sm83VU1TU2pCa3JWa1Iwa2hrdlFiaDBsMXIydGlOeWduNHg4akc1U1JZODZYYisxNEp6VTdrMVovYmVYR3paZ3RzWVNHRTJjK3ZEMGU5V3BjWFVPNUxxVWZUdldXQVc0SHVHNnAiLCJpdiI6Ik5zTHBWcU5HZlpvOUJrY1J0WjNmaVE9PSIsInYiOjF9",
-          "description": "Get your daily notifications from Fuse!",
+          "description": "Get your daily notifications from Fuse (Beta only)!",
           "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.6cdbc2f1-924f-4bd1-8182-5dc20a560715/images/eyJkIjoiRHh2N1JEQm92VUFTMGNndXpPQ2RtR0JpbUhjYVUraDdKNDRNWWJHdTVKSVlsL2FMWDBRdVVmeVlHMk9hQkpuMktZUkZwU2k2OFlzWHg2UVJMck9uMWNXNjhVMTRacWJLdldWanBmVzlqVDJwbmpyanoyVlpKYUxMbm1JelVKUFlkQy9vWnhlQmVYM1J2M250NEZwd1RnPT0iLCJpdiI6IkduTjQyUzI2WGpGZVN4UFRZOHA4OWc9PSIsInYiOjF9"
         }
       },
       "isAvailableWorldwide": false,
-      "testingInstructions": "Alexa, ask Fuse to get me my latest notification",
+      "testingInstructions": "Alexa, ask Fuse Assistant to get me my latest notification",
       "category": "EDUCATION_AND_REFERENCE",
       "distributionCountries": [
         "GB"
@@ -52,8 +54,7 @@
         }
       },
       "isExportCompliant": true,
-      "isChildDirected": false,
-      "usesPersonalInfo": false
+      "isChildDirected": false
     }
   }
 }

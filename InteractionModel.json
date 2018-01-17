@@ -1,0 +1,45 @@
+{
+  "intents": [
+    {
+      "name": "GetNotifications",
+      "samples": [
+        "GetNotifications get my notifications",
+        "GetNotifications for my notifications",
+        "GetNotifications what are my notifications",
+        "GetNotifications what notifications do I have",
+        "GetNotifications tell me my notifications",
+        "GetNotifications tell me my latest notification",
+        "GetNotifications tell me my latest notifications",
+        "GetNotifications what is my latest notification",
+        "GetNotifications get my latest notification",
+        "GetNotifications read my notifications",
+        "GetNotifications read me my notifications",
+        "GetNotifications read me my latest notification"
+      ]
+    },
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.NextIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.NoIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.PreviousIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.YesIntent",
+      "samples": []
+    }
+  ]
+}

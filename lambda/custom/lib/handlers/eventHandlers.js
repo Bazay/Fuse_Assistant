@@ -2,28 +2,27 @@ const request = require('request');
 
 const constants = require('./../constants');
 const config = require('./../configuration');
+const phrases = require('./../phrases');
+
 const logHelper = require('./../helpers/logHelper');
 const apiHelper = require('./../helpers/apiHelper');
 
 let eventHandlers = {
     'NewSession' : function () {
-        logHelper.logSessionStarted(this.event.session);
+        // Default START_MODE
+        this.handler.state = constants.states.START_MODE;
 
-        var accessToken = this.event.session.user.accessToken;
+        logHelper.logSessionStarted(this.event.session);
+        console.log('NewSession');
+
+        let accessToken = this.event.session.user.accessToken;
 
         // Initialize session attributes
         this.attributes['start'] = true;
 
-        // Default START_MODE
-        this.handler.state = constants.states.START_MODE;
-
-        if (!this.attributes['latestItem']) {
-            this.attributes['latestItem'] = {};
-        }
-
         // Ensure user's accessToken is valid
         if (!accessToken) {
-            this.emit('EndSession', 'You must specify an access token to use this skill.')
+            this.emit('expiredAccessToken');
         }
 
         // Ensure we're retrieved information about currently authenticated user.
@@ -50,17 +49,9 @@ let eventHandlers = {
         }
     },
     'EndSession' : function (message) {
-        // Updating session attributes to store only the required attributes within DynamoDB.
-        // deleteAttributes.call(this);
-
-        if (message != constants.terminate) {
-            message = message || '';
-
-            this.response.speak(message);
-            this.emit(':responseReady');
-        } else {
-            // this.emit(':saveState', true);
-        }
+        let response = message || phrases.end_session
+        this.response.speak(response);
+        this.emit(':responseReady');
     }
 };
 
@@ -69,7 +60,7 @@ function newSessionEvent() {
         logHelper.logLaunchRequest(this.event.session, this.event.request);
 
         if (this.handler.state === constants.states.NOTIFICATIONS_MODE) {
-            this.emit('launchNotificationsMode');
+            this.emit('readNotifications');
         } else {
             this.emit('welcome');
         }
