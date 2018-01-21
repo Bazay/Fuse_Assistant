@@ -30,13 +30,20 @@ let phrases = {
     read_notification_reprompt: '. Would you like to hear your next notification?',
     no_more_notifications: 'You have no more notifications at this time. Thanks for using Fuse Assistant!',
 
+    // Account linking
+    account_linking_setup_required_card_title: 'Account linking required for Fuse Assistant',
+    account_linking_setup_required_card_mesage: 'In order to use this skill properly, please perform the Account Linking steps outlined in the description ' +
+      'of the Fuse Assistant skill page in your Alexa mobile app.',
+    account_linking_setup_speech_output: 'Account Linking is required in order to use the Fuse Assistant. For more information, please refer to the detail card ' +
+      'created in your Alexa app. Good bye.',
+
     // Finish
     end_session: 'Thanks for using Fuse Assistant. See you next time!',
 
     // Errors
     unhandled_event: 'I\'m not too sure what you mean, could you try re-phrasing it?',
     unhandled_event_reprompt: 'Try saying \'Get me my notifications\'',
-    expired_access_token: 'It looks like your access token has expired. Please disable then re-authenticate this skill in your Alexa mobile app.',
+    expired_access_token: 'It looks like your access token has expired. Please disable then perform Account Linking for this skill from your Alexa mobile app.',
     technical_error: 'Sorry, I encountered some technical difficulties. Please try again later.'
 };
 

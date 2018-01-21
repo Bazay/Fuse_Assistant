@@ -22,7 +22,7 @@ let eventHandlers = {
 
         // Ensure user's accessToken is valid
         if (!accessToken) {
-            this.emit('expiredAccessToken');
+            return this.emit('accountLinkingRequired');
         }
 
         // Ensure we're retrieved information about currently authenticated user.
@@ -73,6 +73,5 @@ function newSessionEvent() {
         console.log('Unexpected request : ' + this.event.request.type);
     }
 }
-
 
 module.exports = eventHandlers;

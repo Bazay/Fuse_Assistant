@@ -6,43 +6,37 @@
         {
           "name": "GetNotifications",
           "samples": [
-            "GetNotifications get my notifications",
-            "GetNotifications for my notifications",
-            "GetNotifications what are my notifications",
-            "GetNotifications what notifications do I have",
-            "GetNotifications tell me my notifications",
-            "GetNotifications tell me my latest notification",
-            "GetNotifications tell me my latest notifications",
-            "GetNotifications what is my latest notification",
-            "GetNotifications get my latest notification",
-            "GetNotifications read my notifications",
-            "GetNotifications read me my notifications",
-            "GetNotifications read me my latest notification"
+            "get my notifications",
+            "for my notifications",
+            "what are my notifications",
+            "what notifications do I have",
+            "tell me my notifications",
+            "tell me my latest notification",
+            "tell me my latest notifications",
+            "what is my latest notification",
+            "get my latest notification",
+            "read my notifications",
+            "read me my notifications",
+            "read me my latest notification"
           ]
         },
         {
-          "name": "AMAZON.CancelIntent",
-          "samples": []
+          "name": "AMAZON.CancelIntent"
         },
         {
-          "name": "AMAZON.HelpIntent",
-          "samples": []
+          "name": "AMAZON.HelpIntent"
         },
         {
-          "name": "AMAZON.NextIntent",
-          "samples": []
+          "name": "AMAZON.NextIntent"
         },
         {
-          "name": "AMAZON.NoIntent",
-          "samples": []
+          "name": "AMAZON.NoIntent"
         },
         {
-          "name": "AMAZON.PreviousIntent",
-          "samples": []
+          "name": "AMAZON.PreviousIntent"
         },
         {
-          "name": "AMAZON.YesIntent",
-          "samples": []
+          "name": "AMAZON.YesIntent"
         }
       ]
     }

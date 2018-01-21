@@ -1,5 +1,7 @@
 const Alexa = require('alexa-sdk');
+
 const config = require('./lib/configuration');
+
 const eventHandlers = require('./lib/handlers/eventHandlers');
 const stateHandlers = require('./lib/handlers/stateHandlers');
 const intentHandlers = require('./lib/handlers/intentHandlers');

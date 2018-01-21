@@ -74,7 +74,16 @@ const speechHandlers = {
     'expiredAccessToken' : function() {
         console.log('expiredAccessToken');
 
-        this.emit('EndSession', phrases.expired_access_token);
+        let speechOutput = phrases.expired_access_token;
+
+        showAccountLinkingRequiredCardAndEndSession.call(this, speechOutput);
+    },
+    'accountLinkingRequired': function() {
+        console.log('accountLinkingRequired');
+
+        let speechOutput = phrases.account_linking_setup_speech_output;
+
+        showAccountLinkingRequiredCardAndEndSession.call(this, speechOutput);
     },
     'reportError' : function () {
         console.log('reportError');
@@ -137,6 +146,15 @@ function notificationPhraseHelper(message) {
     } else {
         return phrases.read_notification(message);
     }
+}
+
+function showAccountLinkingRequiredCardAndEndSession(speechOutput) {
+    let cardTitle = phrases.account_linking_setup_required_card_title;
+    let cardContent = phrases.account_linking_setup_required_card_mesage;
+    let cardImage = constants.defaultCardImage;
+
+    this.response.cardRenderer(cardTitle, cardContent, cardImage);
+    this.emit('EndSession', speechOutput);
 }
 
 module.exports = speechHandlers;
