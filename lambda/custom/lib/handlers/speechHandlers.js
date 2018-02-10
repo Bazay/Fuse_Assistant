@@ -149,11 +149,7 @@ function notificationPhraseHelper(message) {
 }
 
 function showAccountLinkingRequiredCardAndEndSession(speechOutput) {
-    let cardTitle = phrases.account_linking_setup_required_card_title;
-    let cardContent = phrases.account_linking_setup_required_card_mesage;
-    let cardImage = constants.defaultCardImage;
-
-    this.response.cardRenderer(cardTitle, cardContent, cardImage);
+    this.response.linkAccountCard();
     this.emit('EndSession', speechOutput);
 }
 

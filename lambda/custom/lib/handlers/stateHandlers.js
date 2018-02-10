@@ -12,7 +12,7 @@ const stateHandlers = {
          *  All Intent Handlers for state : _START_MODE
          */
         'GetNotifications': function() {
-            console.log('START_MODE - GetNotifications');
+            console.log('_START_MODE - GetNotifications');
             this.emit('readNotifications');
         },
         'AMAZON.YesIntent' : function () {
@@ -42,6 +42,10 @@ const stateHandlers = {
         /*
          *  All Intent Handlers for state : _NOTIFICATIONS_MODE
          */
+        'GetNotifications': function() {
+            console.log('_NOTIFICATIONS_MODE - GetNotifications');
+            this.emit('readNotifications');
+        },
         'AMAZON.NextIntent' : function () {
             // User accepts they want to hear the next notification
             readNextNotification.call(this);

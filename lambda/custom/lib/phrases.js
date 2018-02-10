@@ -43,7 +43,8 @@ let phrases = {
     // Errors
     unhandled_event: 'I\'m not too sure what you mean, could you try re-phrasing it?',
     unhandled_event_reprompt: 'Try saying \'Get me my notifications\'',
-    expired_access_token: 'It looks like your access token has expired. Please disable then perform Account Linking for this skill from your Alexa mobile app.',
+    expired_access_token: 'It looks like your access token has expired. Please disable then perform Account Linking for this skill from the card generated in your ' +
+      'Alexa mobile app.',
     technical_error: 'Sorry, I encountered some technical difficulties. Please try again later.'
 };
 
