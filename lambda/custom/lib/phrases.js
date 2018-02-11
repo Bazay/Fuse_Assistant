@@ -11,11 +11,6 @@ let phrases = {
         ' Currently, I can only retrieve your notifications. Would you like to hear them?';
     },
     welcome_startup_message_reprompt: 'Would you like to hear your notifications?',
-    start_mode_help: 'You need help already? To be honest, there\'s not much to know. ' +
-      'You can say \'Tell me my notifications\' to hear your notifications. ' +
-      'Any time during this skill you can say \'Next\' or \'Skip\' to go to the next notification, ' +
-      '\'Previous\' or \'Back\' to re-read the previous notification, and \'Stop\' or \'Exit\' to exit the skill all together. ' +
-      'Ready to hear notifications?',
 
     // Notifications
     read_notification: function(message) {
@@ -39,6 +34,14 @@ let phrases = {
 
     // Finish
     end_session: 'Thanks for using Fuse Assistant. See you next time!',
+
+    // Help
+    help_message: 'You need help already? To be honest, there\'s not much to know. ' +
+      'You can say \'Tell me my notifications\' to hear your notifications. ' +
+      'Any time during this skill you can say \'Next\' or \'Skip\' to go to the next notification, ' +
+      '\'Previous\' or \'Back\' to re-read the previous notification, and \'Stop\' or \'Exit\' to exit the skill all together. ' +
+      'Ready to hear notifications?',
+    help_message_reprompt: 'Would you like to hear your notifications?',
 
     // Errors
     unhandled_event: 'I\'m not too sure what you mean, could you try re-phrasing it?',

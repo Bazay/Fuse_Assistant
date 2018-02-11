@@ -24,6 +24,9 @@
           "name": "AMAZON.CancelIntent"
         },
         {
+          "name": "AMAZON.StopIntent"
+        },
+        {
           "name": "AMAZON.HelpIntent"
         },
         {
