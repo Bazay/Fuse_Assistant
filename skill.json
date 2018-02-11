@@ -19,7 +19,7 @@
         }
       },
       "isAvailableWorldwide": false,
-      "testingInstructions": "The skill requires account linking to the Fuse platform.\nFor testing purposes, a test user on the Fuse platform has been created for this skill, the login credentials are below:\nlogin name: alexa_test_user@fuseuniversal.com\npassword: MeK\\28c'FhsmH}E3\n\nDuring account linking you will be directed to the Fuse platform homepage. Click on 'Login' from the top right navbar and enter the above credentials. Successful login will result in a page specifying the account linking has been successful.",
+      "testingInstructions": "The skill requires account linking to the Fuse platform.\nFor testing purposes, a test user on the Fuse platform has been created for this skill, the login credentials are below:\nlogin name: alexa_test_user\npassword: 5m5LaUtLcV}7\n\nDuring account linking you will be directed to the Fuse platform homepage. Click on 'Login' from the top right navbar and enter the above credentials. Successful login will result in a page specifying the account linking has been successful.",
       "category": "EDUCATION_AND_REFERENCE",
       "distributionCountries": [
         "GB"
@@ -38,7 +38,7 @@
       "allowsPurchases": false,
       "locales": {
         "en-GB": {
-          "privacyPolicyUrl": "https://fusion.fuseuniversal.com/privacy"
+          "privacyPolicyUrl": "https://fuse.fuseuniversal.com/privacy"
         }
       },
       "isExportCompliant": true,
