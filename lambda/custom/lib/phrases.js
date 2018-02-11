@@ -38,8 +38,8 @@ let phrases = {
     // Help
     help_message: 'You need help already? To be honest, there\'s not much to know. ' +
       'You can say \'Tell me my notifications\' to hear your notifications. ' +
-      'Any time during this skill you can say \'Next\' or \'Skip\' to go to the next notification, ' +
-      '\'Previous\' or \'Back\' to re-read the previous notification, and \'Stop\' or \'Exit\' to exit the skill all together. ' +
+      'Any time during this skill you can say \'Next\' to go to the next notification, ' +
+      '\'Previous\' to re-read the previous notification, and \'Stop\' to exit the skill all together. ' +
       'Ready to hear notifications?',
     help_message_reprompt: 'Would you like to hear your notifications?',
 
